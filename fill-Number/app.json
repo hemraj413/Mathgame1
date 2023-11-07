@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "fill-Number",
+    "slug": "fill-Number",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "97648b41-3f95-4148-aac4-018d208a09dd"
+      }
+    },
+    "android": {
+      "package": "com.himal13.fillNumber"
+    }
+  }
+}

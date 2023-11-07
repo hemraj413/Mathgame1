@@ -7,7 +7,7 @@ const Menu = () => {
     const[aboutMode,setAboutmode] = useState(false)
   return (
     <View style={{width:"100%",justifyContent:"center",}}>
-      <Text style={{marginBottom:"10%",padding:5,fontSize:17,color:"#fff"}}>Name? is a Math Game.</Text>
+      <Text style={{marginBottom:"10%",padding:5,fontSize:17,color:"#fff"}}> ? + ? =5 is a Math Game.</Text>
       {
         tutorialMode?(
             <Text  style={{padding:5,fontSize:17,color:"#fff"}} onPress={()=>setTutorialMode(false)}>There must be 3 or 4 numbers at the bottom of your device. Solve mathematics of possibilities of arrangement of numbers in the question and arrange them from those bottom numbers.</Text>
